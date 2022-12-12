@@ -18,10 +18,10 @@
            <!-- start link -->
         <div class="flex justify-center items-center pt-14 pb-24">
             <div class="flex flex-row space-x-56 text-xl font-semibold">
-                <a href="#">Progaming</a>
-                <a href="#">3D</a>
-                <a href="#">Ilustrasi</a>
-                <a href="#">Presentasi</a>
+                <RouterLink to="/programing">Programming</RouterLink>
+                <RouterLink to="/3D">3D</RouterLink>
+                <RouterLink to="/ilustrasi">Ilustrasi</RouterLink>
+                <RouterLink to="/presentasi">Presentasi</RouterLink>
             </div>
         </div>
            <!-- end link  -->

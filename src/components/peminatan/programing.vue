@@ -2,7 +2,7 @@
         <!-- programing -->
           <div class="pl-16 pr-2">
       <h1 class="text-black font-bold not-italic text-5xl">
-        Programing
+        Programming
       </h1>
       <div class="py-10">
         <p class="not-italic font-semibold text-xl">
