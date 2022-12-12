@@ -13,12 +13,12 @@
 
     <!-- start gallery -->
     <div class=" pt-16 justify-center p-10 pb-20">
-      <route-link to="/detail-karya" v-for="i in 9" :key="i">
+      <router-link to="/detail-karya" v-for="i in 9" :key="i">
       <gallery_row :gallery="{
         image: '',
       }">
       </gallery_row>
-      </route-link> 
+    </router-link>  
     </div>
         <!-- end gallery -->
 </template>
