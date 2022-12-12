@@ -15,7 +15,7 @@
              <!-- title -->
                 <h1 class="font-bold text-3xl">{{ detail_karya.title }}</h1>
             <!-- peminatan -->
-                <div class="bg-gray-300 px-3 py-1 w-28 h-8 text-sm rounded-full text-black">{{ detail_karya.peminatan }}</div>
+                <div class="bg-gray-300 text-center px-3 py-1 w-28 h-8 text-sm rounded-full text-black">{{ detail_karya.peminatan }}</div>
                 <!-- keterangan -->
             <p class="text-lg font-semibold">{{ detail_karya.keterangan }}</p>
             
