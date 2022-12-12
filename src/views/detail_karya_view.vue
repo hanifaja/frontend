@@ -1,11 +1,9 @@
 <template>
     <div class="detail-karya">
         <Navbar />
-        <div class="h-20 pt-28">
-    <Detail_karya />
-    <Footer />
-</div>
-</div>
+        <Detail_karya />
+        <Footer />
+    </div>
 </template>
 
 <script>

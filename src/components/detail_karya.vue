@@ -1,6 +1,6 @@
 <template>
-         <div class="mt-8 mb-16">
-            <div v-for="i in 1" :key="i" class="flex flex-row"></div>
+         <div>
+            <div v-for="i in 1" :key="i"></div>
             <Detail_karya :detail_karya="{
                 image: '',
                 title: 'Manut',
