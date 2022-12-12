@@ -11,23 +11,21 @@
                 <form action="">
                     <div class="space-y-8">
                         <div class="flex items-center text-xl font-sans">
+                            <!-- input username -->
+                            <input type="text" v-model="Username" placeholder="Username" class="appearance-none  bg-slate-300 h-14 w-96 outline-none pl-5 ">
+                        </div>
+                        <div class="flex items-center text-xl font-sans">
                             <!-- input email -->
-                            <input type="email" v-model="Email" id="username" placeholder="Email" class="appearance-none  bg-slate-300 h-14 w-96 outline-none pl-5 ">
+                            <input type="email" v-model="Email" placeholder="Email" class="appearance-none  bg-slate-300 h-14 w-96 outline-none pl-5 ">
                         </div>
                         <div class="flex items-center">
                             <!-- input password -->
-                            <input type="password" v-model="Password" id="password" placeholder="********" class="appearance-none  bg-slate-300 h-14 w-96 pl-5">
+                            <input type="password" v-model="Password" placeholder="********" class="appearance-none  bg-slate-300 h-14 w-96 pl-5">
                         </div>
                         <div class="flex items-center justify-center pt-14">
-                            <!-- tombol login -->
+                            <!-- tombol -->
                             <router-link to="/dashboard" custom v-slot="{ navigate }">
-                                <button v-on:click="Login" type="submit" @click="navigate" role="link" class="bg-slate-300 h-14 w-96 text-xl font-bold">LOGIN</button>
-                             </router-link>
-                        </div>   
-                        <div class="flex items-center justify-center pt-4">
-                            <!-- tombol login -->
-                            <router-link to="/register" custom v-slot="{ navigate }">
-                                <button type="submit" @click="navigate" role="link" class="bg-slate-300 h-14 w-96 text-xl font-bold">DAFTAR</button>
+                                <button v-on:click="Daftar" type="submit" @click="navigate" role="link" class="bg-slate-300 h-14 w-96 text-xl font-bold">DAFTAR</button>
                              </router-link>
                         </div>   
                     </div>
@@ -42,14 +40,15 @@
         data()
         {
             return{
+                Username: '',
                 Email: '',
                 Password: ''
             }
         },
         methods:{
-            Login()
+            Daftar()
             {
-                console.warn(this.Email,this.Password)
+                console.warn(this.Username,this.Email,this.Password)
             }
         }
     };

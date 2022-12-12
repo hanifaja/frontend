@@ -7,6 +7,8 @@ import presentasi from '../views/presentasi_view.vue'
 import detail_karya from '../views/detail_karya_view.vue'
 import login from '../views/login_view.vue'
 import gallery from '../views/gallery_view.vue'
+import dashboard from '../views/dashboard_view.vue'
+import register from '../views/register_view.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -59,6 +61,16 @@ const router = createRouter({
       name: 'gallery',
       component: gallery
     },
+    {
+      path: '/dashboard',
+      name: 'dashboard',
+     component: dashboard
+    },
+    {
+      path: '/register',
+      name: 'register',
+     component: register
+    }
   ],
     scrollBehavior() {
        document.getElementById('app').scrollIntoView({behavior:'smooth'});
