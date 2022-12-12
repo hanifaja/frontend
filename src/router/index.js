@@ -4,7 +4,7 @@ import programing from '../views/programing_view.vue'
 import dimensi from '../views/3D_view.vue'
 import ilustrasi from '../views/ilustrasi_view.vue'
 import presentasi from '../views/presentasi_view.vue'
-// import detail_karya from '../views/detail_karya_view.vue'
+import detail_karya from '../views/detail_karya_view.vue'
 import login from '../views/login_view.vue'
 import gallery from '../views/gallery_view.vue'
 
@@ -44,11 +44,11 @@ const router = createRouter({
       name: 'presentasi',
       component: presentasi
     },
-    // {
-    //   path: '/detail-karya',
-    //   name: 'detail-karya',
-    //   component: detail_karya
-    // },
+    {
+      path: '/detail-karya',
+      name: 'detail-karya',
+      component: detail_karya
+    },
     {
       path: '/login',
       name: 'login',
