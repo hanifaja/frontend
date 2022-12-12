@@ -17,7 +17,9 @@
                 </li>
             </ul>
            <!-- LOGO -->
+           <router-link to="/">
                 <img class="h-16 my-5" src="../components/assets/logoipsum-288 1.svg" alt="">
+            </router-link>
         <!-- Left menu -->
             <ul class="flex flex-row gap-x-7 mr-16 my-9 text-xl font-semibold">
                 <li>
