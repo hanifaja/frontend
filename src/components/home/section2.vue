@@ -4,7 +4,7 @@
         <!-- menu -->
             <ul class="flex flex-row gap-x-40 m-14 text-2xl font-medium text-black">
                 <li>
-                    <RouterLink to="/programing">Programming</RouterLink>
+                    <RouterLink to="/programing">Programmiing</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/3D">3D</RouterLink>
