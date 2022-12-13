@@ -7,7 +7,7 @@
         <!-- end logo -->
 
         <!-- start text -->
-        <div class="flex  pt-24 pl-5 pr-5 font-semibold">
+        <div class="flex  pt-24 pl-5 pr-5 font-jakarta">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dicta saepe doloribus porro vitae laborum quis veniam veritatis reprehenderit, tempora maiores consequatur dignissimos assumenda magni consequuntur repudiandae nulla perferendis placeat.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ut accusamus et numquam facere sint in, obcaecati reprehenderit ratione voluptatem veniam deserunt corporis, debitis magnam aut quos. Aliquam, fuga suscipit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ullam hic quidem labore architecto maiores beatae ipsa sunt deserunt repudiandae ad, rerum quam? Quas veritatis iste inventore totam, libero officiis.
