@@ -8,64 +8,16 @@
     </div>
   </div>
 <!-- start gallery -->
-  <div class=" pt-16 justify-center flex p-10">
-    <div class="grid grid-cols-3 gap-20">
-      <!-- rectangle1 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectagle 2 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectangle3 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectangle4 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectangle5 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectagle6 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectangle7 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectangle8 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
-      <!-- rectangle9 -->
-      <a href="#">
-        <div class="w-72 h-72 bg-slate-700 rounded-lg overflow-hidden">
-          <img class="object-cover" src="" alt="">
-        </div>
-      </a>
+<div class=" pt-16 justify-center p-10 pb-20">
+      <router-link to="/detail-karya" v-for="i in 9" :key="i">
+      <gallery_row :gallery="{
+        image: '',
+      }">
+      </gallery_row>
+    </router-link> 
     </div>
-  </div>
+          <!-- end gallery -->
+
   <!-- button -->
   <router-link to="/gallery">
   <div class=" flex justify-center pt-5">
@@ -75,3 +27,10 @@
   </div>
 </router-link>
 </template>
+
+  <script>
+    import gallery_row from '../gallery_db.vue';
+export default {
+  components: {gallery_row}
+}
+  </script>
