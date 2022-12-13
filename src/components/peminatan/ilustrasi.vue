@@ -12,7 +12,7 @@
 </div>
 
   <!-- start gallery -->
-  <div class=" pt-16 justify-center p-10 pb-20">
+  <div class=" pt-16 grid grid-cols-3 mx-auto max-w-5xl p-10 pb-20">
     <router-link to="/detail-karya" v-for="i in 9" :key="i">
       <gallery_row :gallery="{
         image: '',
