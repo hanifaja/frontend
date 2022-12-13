@@ -3,16 +3,16 @@
     <div class="flex max-w-screen bg-white justify-between">
         <!-- Right menu -->
             <ul class="flex flex-row  gap-x-7 ml-14 my-9 text-xl font-semibold">
-                <li>
+                <li class=" hover:text-gray-500">
                     <RouterLink to="/programing">Programming</RouterLink>
                 </li>
-                <li>
+                <li class=" hover:text-gray-500">
                     <RouterLink to="/3D">3D</RouterLink>
                 </li>
-                <li>
+                <li class=" hover:text-gray-500">
                     <RouterLink to="/ilustrasi">Ilustrasi</RouterLink>
                 </li>
-                <li>
+                <li class=" hover:text-gray-500">
                     <RouterLink to="/presentasi">Presentasi</RouterLink>
                 </li>
             </ul>
