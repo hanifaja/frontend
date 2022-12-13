@@ -67,9 +67,11 @@
     </div>
   </div>
   <!-- button -->
+  <router-link to="/gallery">
   <div class=" flex justify-center pt-5">
-    <a href = "#" class=" rounded-full px-10 py-5 mt-10 mb-32 text-4xl border-2 border-black">
+    <label class=" rounded-full px-10 py-5 mt-10 mb-32 text-4xl border-2 border-black cursor-pointer hover:bg-gray-300">
       View More
-    </a>
+    </label>
   </div>
+</router-link>
 </template>
